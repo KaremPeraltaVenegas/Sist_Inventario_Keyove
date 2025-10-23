@@ -1,0 +1,177 @@
+C:\Users\KEYOVE\Desktop\CARPETA MARICIELO - SENATI\SistemaInventarioKeyove\SistemaInventarioKeyove\bin\SistemaInventarioKeyove.dll.config
+C:\Users\KEYOVE\Desktop\CARPETA MARICIELO - SENATI\SistemaInventarioKeyove\SistemaInventarioKeyove\bin\SistemaInventarioKeyove.dll
+C:\Users\KEYOVE\Desktop\CARPETA MARICIELO - SENATI\SistemaInventarioKeyove\SistemaInventarioKeyove\bin\SistemaInventarioKeyove.pdb
+C:\Users\KEYOVE\Desktop\CARPETA MARICIELO - SENATI\SistemaInventarioKeyove\SistemaInventarioKeyove\bin\roslyn\csc.exe
+C:\Users\KEYOVE\Desktop\CARPETA MARICIELO - SENATI\SistemaInventarioKeyove\SistemaInventarioKeyove\bin\roslyn\csc.exe.config
+C:\Users\KEYOVE\Desktop\CARPETA MARICIELO - SENATI\SistemaInventarioKeyove\SistemaInventarioKeyove\bin\roslyn\csc.rsp
+C:\Users\KEYOVE\Desktop\CARPETA MARICIELO - SENATI\SistemaInventarioKeyove\SistemaInventarioKeyove\bin\roslyn\csi.exe
+C:\Users\KEYOVE\Desktop\CARPETA MARICIELO - SENATI\SistemaInventarioKeyove\SistemaInventarioKeyove\bin\roslyn\csi.exe.config
+C:\Users\KEYOVE\Desktop\CARPETA MARICIELO - SENATI\SistemaInventarioKeyove\SistemaInventarioKeyove\bin\roslyn\csi.rsp
+C:\Users\KEYOVE\Desktop\CARPETA MARICIELO - SENATI\SistemaInventarioKeyove\SistemaInventarioKeyove\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\KEYOVE\Desktop\CARPETA MARICIELO - SENATI\SistemaInventarioKeyove\SistemaInventarioKeyove\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\KEYOVE\Desktop\CARPETA MARICIELO - SENATI\SistemaInventarioKeyove\SistemaInventarioKeyove\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\KEYOVE\Desktop\CARPETA MARICIELO - SENATI\SistemaInventarioKeyove\SistemaInventarioKeyove\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\KEYOVE\Desktop\CARPETA MARICIELO - SENATI\SistemaInventarioKeyove\SistemaInventarioKeyove\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\KEYOVE\Desktop\CARPETA MARICIELO - SENATI\SistemaInventarioKeyove\SistemaInventarioKeyove\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\KEYOVE\Desktop\CARPETA MARICIELO - SENATI\SistemaInventarioKeyove\SistemaInventarioKeyove\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\KEYOVE\Desktop\CARPETA MARICIELO - SENATI\SistemaInventarioKeyove\SistemaInventarioKeyove\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\KEYOVE\Desktop\CARPETA MARICIELO - SENATI\SistemaInventarioKeyove\SistemaInventarioKeyove\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\KEYOVE\Desktop\CARPETA MARICIELO - SENATI\SistemaInventarioKeyove\SistemaInventarioKeyove\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\KEYOVE\Desktop\CARPETA MARICIELO - SENATI\SistemaInventarioKeyove\SistemaInventarioKeyove\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\KEYOVE\Desktop\CARPETA MARICIELO - SENATI\SistemaInventarioKeyove\SistemaInventarioKeyove\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\KEYOVE\Desktop\CARPETA MARICIELO - SENATI\SistemaInventarioKeyove\SistemaInventarioKeyove\bin\roslyn\System.AppContext.dll
+C:\Users\KEYOVE\Desktop\CARPETA MARICIELO - SENATI\SistemaInventarioKeyove\SistemaInventarioKeyove\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\KEYOVE\Desktop\CARPETA MARICIELO - SENATI\SistemaInventarioKeyove\SistemaInventarioKeyove\bin\roslyn\System.Console.dll
+C:\Users\KEYOVE\Desktop\CARPETA MARICIELO - SENATI\SistemaInventarioKeyove\SistemaInventarioKeyove\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\KEYOVE\Desktop\CARPETA MARICIELO - SENATI\SistemaInventarioKeyove\SistemaInventarioKeyove\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\KEYOVE\Desktop\CARPETA MARICIELO - SENATI\SistemaInventarioKeyove\SistemaInventarioKeyove\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\KEYOVE\Desktop\CARPETA MARICIELO - SENATI\SistemaInventarioKeyove\SistemaInventarioKeyove\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\KEYOVE\Desktop\CARPETA MARICIELO - SENATI\SistemaInventarioKeyove\SistemaInventarioKeyove\bin\roslyn\System.IO.Compression.dll
+C:\Users\KEYOVE\Desktop\CARPETA MARICIELO - SENATI\SistemaInventarioKeyove\SistemaInventarioKeyove\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\KEYOVE\Desktop\CARPETA MARICIELO - SENATI\SistemaInventarioKeyove\SistemaInventarioKeyove\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\KEYOVE\Desktop\CARPETA MARICIELO - SENATI\SistemaInventarioKeyove\SistemaInventarioKeyove\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\KEYOVE\Desktop\CARPETA MARICIELO - SENATI\SistemaInventarioKeyove\SistemaInventarioKeyove\bin\roslyn\System.Net.Http.dll
+C:\Users\KEYOVE\Desktop\CARPETA MARICIELO - SENATI\SistemaInventarioKeyove\SistemaInventarioKeyove\bin\roslyn\System.Net.Sockets.dll
+C:\Users\KEYOVE\Desktop\CARPETA MARICIELO - SENATI\SistemaInventarioKeyove\SistemaInventarioKeyove\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\KEYOVE\Desktop\CARPETA MARICIELO - SENATI\SistemaInventarioKeyove\SistemaInventarioKeyove\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\KEYOVE\Desktop\CARPETA MARICIELO - SENATI\SistemaInventarioKeyove\SistemaInventarioKeyove\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\KEYOVE\Desktop\CARPETA MARICIELO - SENATI\SistemaInventarioKeyove\SistemaInventarioKeyove\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\KEYOVE\Desktop\CARPETA MARICIELO - SENATI\SistemaInventarioKeyove\SistemaInventarioKeyove\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\KEYOVE\Desktop\CARPETA MARICIELO - SENATI\SistemaInventarioKeyove\SistemaInventarioKeyove\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\KEYOVE\Desktop\CARPETA MARICIELO - SENATI\SistemaInventarioKeyove\SistemaInventarioKeyove\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\KEYOVE\Desktop\CARPETA MARICIELO - SENATI\SistemaInventarioKeyove\SistemaInventarioKeyove\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\KEYOVE\Desktop\CARPETA MARICIELO - SENATI\SistemaInventarioKeyove\SistemaInventarioKeyove\bin\roslyn\System.ValueTuple.dll
+C:\Users\KEYOVE\Desktop\CARPETA MARICIELO - SENATI\SistemaInventarioKeyove\SistemaInventarioKeyove\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\KEYOVE\Desktop\CARPETA MARICIELO - SENATI\SistemaInventarioKeyove\SistemaInventarioKeyove\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\KEYOVE\Desktop\CARPETA MARICIELO - SENATI\SistemaInventarioKeyove\SistemaInventarioKeyove\bin\roslyn\System.Xml.XPath.dll
+C:\Users\KEYOVE\Desktop\CARPETA MARICIELO - SENATI\SistemaInventarioKeyove\SistemaInventarioKeyove\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\KEYOVE\Desktop\CARPETA MARICIELO - SENATI\SistemaInventarioKeyove\SistemaInventarioKeyove\bin\roslyn\vbc.exe
+C:\Users\KEYOVE\Desktop\CARPETA MARICIELO - SENATI\SistemaInventarioKeyove\SistemaInventarioKeyove\bin\roslyn\vbc.exe.config
+C:\Users\KEYOVE\Desktop\CARPETA MARICIELO - SENATI\SistemaInventarioKeyove\SistemaInventarioKeyove\bin\roslyn\vbc.rsp
+C:\Users\KEYOVE\Desktop\CARPETA MARICIELO - SENATI\SistemaInventarioKeyove\SistemaInventarioKeyove\bin\roslyn\VBCSCompiler.exe
+C:\Users\KEYOVE\Desktop\CARPETA MARICIELO - SENATI\SistemaInventarioKeyove\SistemaInventarioKeyove\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\KEYOVE\Desktop\CARPETA MARICIELO - SENATI\SistemaInventarioKeyove\SistemaInventarioKeyove\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\KEYOVE\Desktop\CARPETA MARICIELO - SENATI\SistemaInventarioKeyove\SistemaInventarioKeyove\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\KEYOVE\Desktop\CARPETA MARICIELO - SENATI\SistemaInventarioKeyove\SistemaInventarioKeyove\obj\Debug\SistemaInventarioKeyove.csprojAssemblyReference.cache
+C:\Users\KEYOVE\Desktop\CARPETA MARICIELO - SENATI\SistemaInventarioKeyove\SistemaInventarioKeyove\obj\Debug\SistemaInventarioKeyove.csproj.CoreCompileInputs.cache
+C:\Users\KEYOVE\Desktop\CARPETA MARICIELO - SENATI\SistemaInventarioKeyove\SistemaInventarioKeyove\obj\Debug\SistemaInventarioKeyove.csproj.CopyComplete
+C:\Users\KEYOVE\Desktop\CARPETA MARICIELO - SENATI\SistemaInventarioKeyove\SistemaInventarioKeyove\obj\Debug\SistemaInventarioKeyove.dll
+C:\Users\KEYOVE\Desktop\CARPETA MARICIELO - SENATI\SistemaInventarioKeyove\SistemaInventarioKeyove\obj\Debug\SistemaInventarioKeyove.pdb
+C:\Users\usuario\Sistema_Inventario_Keyove\SistemaInventarioKeyove\bin\SistemaInventarioKeyove.dll.config
+C:\Users\usuario\Sistema_Inventario_Keyove\SistemaInventarioKeyove\bin\SistemaInventarioKeyove.dll
+C:\Users\usuario\Sistema_Inventario_Keyove\SistemaInventarioKeyove\bin\SistemaInventarioKeyove.pdb
+C:\Users\usuario\Sistema_Inventario_Keyove\SistemaInventarioKeyove\bin\roslyn\csc.exe
+C:\Users\usuario\Sistema_Inventario_Keyove\SistemaInventarioKeyove\bin\roslyn\csc.exe.config
+C:\Users\usuario\Sistema_Inventario_Keyove\SistemaInventarioKeyove\bin\roslyn\csc.rsp
+C:\Users\usuario\Sistema_Inventario_Keyove\SistemaInventarioKeyove\bin\roslyn\csi.exe
+C:\Users\usuario\Sistema_Inventario_Keyove\SistemaInventarioKeyove\bin\roslyn\csi.exe.config
+C:\Users\usuario\Sistema_Inventario_Keyove\SistemaInventarioKeyove\bin\roslyn\csi.rsp
+C:\Users\usuario\Sistema_Inventario_Keyove\SistemaInventarioKeyove\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\usuario\Sistema_Inventario_Keyove\SistemaInventarioKeyove\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\usuario\Sistema_Inventario_Keyove\SistemaInventarioKeyove\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\usuario\Sistema_Inventario_Keyove\SistemaInventarioKeyove\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\usuario\Sistema_Inventario_Keyove\SistemaInventarioKeyove\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\usuario\Sistema_Inventario_Keyove\SistemaInventarioKeyove\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\usuario\Sistema_Inventario_Keyove\SistemaInventarioKeyove\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\usuario\Sistema_Inventario_Keyove\SistemaInventarioKeyove\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\usuario\Sistema_Inventario_Keyove\SistemaInventarioKeyove\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\usuario\Sistema_Inventario_Keyove\SistemaInventarioKeyove\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\usuario\Sistema_Inventario_Keyove\SistemaInventarioKeyove\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\usuario\Sistema_Inventario_Keyove\SistemaInventarioKeyove\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\usuario\Sistema_Inventario_Keyove\SistemaInventarioKeyove\bin\roslyn\System.AppContext.dll
+C:\Users\usuario\Sistema_Inventario_Keyove\SistemaInventarioKeyove\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\usuario\Sistema_Inventario_Keyove\SistemaInventarioKeyove\bin\roslyn\System.Console.dll
+C:\Users\usuario\Sistema_Inventario_Keyove\SistemaInventarioKeyove\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\usuario\Sistema_Inventario_Keyove\SistemaInventarioKeyove\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\usuario\Sistema_Inventario_Keyove\SistemaInventarioKeyove\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\usuario\Sistema_Inventario_Keyove\SistemaInventarioKeyove\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\usuario\Sistema_Inventario_Keyove\SistemaInventarioKeyove\bin\roslyn\System.IO.Compression.dll
+C:\Users\usuario\Sistema_Inventario_Keyove\SistemaInventarioKeyove\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\usuario\Sistema_Inventario_Keyove\SistemaInventarioKeyove\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\usuario\Sistema_Inventario_Keyove\SistemaInventarioKeyove\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\usuario\Sistema_Inventario_Keyove\SistemaInventarioKeyove\bin\roslyn\System.Net.Http.dll
+C:\Users\usuario\Sistema_Inventario_Keyove\SistemaInventarioKeyove\bin\roslyn\System.Net.Sockets.dll
+C:\Users\usuario\Sistema_Inventario_Keyove\SistemaInventarioKeyove\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\usuario\Sistema_Inventario_Keyove\SistemaInventarioKeyove\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\usuario\Sistema_Inventario_Keyove\SistemaInventarioKeyove\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\usuario\Sistema_Inventario_Keyove\SistemaInventarioKeyove\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\usuario\Sistema_Inventario_Keyove\SistemaInventarioKeyove\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\usuario\Sistema_Inventario_Keyove\SistemaInventarioKeyove\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\usuario\Sistema_Inventario_Keyove\SistemaInventarioKeyove\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\usuario\Sistema_Inventario_Keyove\SistemaInventarioKeyove\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\usuario\Sistema_Inventario_Keyove\SistemaInventarioKeyove\bin\roslyn\System.ValueTuple.dll
+C:\Users\usuario\Sistema_Inventario_Keyove\SistemaInventarioKeyove\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\usuario\Sistema_Inventario_Keyove\SistemaInventarioKeyove\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\usuario\Sistema_Inventario_Keyove\SistemaInventarioKeyove\bin\roslyn\System.Xml.XPath.dll
+C:\Users\usuario\Sistema_Inventario_Keyove\SistemaInventarioKeyove\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\usuario\Sistema_Inventario_Keyove\SistemaInventarioKeyove\bin\roslyn\vbc.exe
+C:\Users\usuario\Sistema_Inventario_Keyove\SistemaInventarioKeyove\bin\roslyn\vbc.exe.config
+C:\Users\usuario\Sistema_Inventario_Keyove\SistemaInventarioKeyove\bin\roslyn\vbc.rsp
+C:\Users\usuario\Sistema_Inventario_Keyove\SistemaInventarioKeyove\bin\roslyn\VBCSCompiler.exe
+C:\Users\usuario\Sistema_Inventario_Keyove\SistemaInventarioKeyove\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\usuario\Sistema_Inventario_Keyove\SistemaInventarioKeyove\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\usuario\Sistema_Inventario_Keyove\SistemaInventarioKeyove\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\usuario\Sistema_Inventario_Keyove\SistemaInventarioKeyove\obj\Debug\SistemaInventarioKeyove.csproj.AssemblyReference.cache
+C:\Users\usuario\Sistema_Inventario_Keyove\SistemaInventarioKeyove\obj\Debug\SistemaInventarioKeyove.csproj.CoreCompileInputs.cache
+C:\Users\usuario\Sistema_Inventario_Keyove\SistemaInventarioKeyove\obj\Debug\SistemaInventarioKeyove.csproj.CopyComplete
+C:\Users\usuario\Sistema_Inventario_Keyove\SistemaInventarioKeyove\obj\Debug\SistemaInventarioKeyove.dll
+C:\Users\usuario\Sistema_Inventario_Keyove\SistemaInventarioKeyove\obj\Debug\SistemaInventarioKeyove.pdb
+C:\Sistema_Inventario_Keyove\SistemaInventarioKeyove\bin\SistemaInventarioKeyove.dll.config
+C:\Sistema_Inventario_Keyove\SistemaInventarioKeyove\bin\SistemaInventarioKeyove.dll
+C:\Sistema_Inventario_Keyove\SistemaInventarioKeyove\bin\SistemaInventarioKeyove.pdb
+C:\Sistema_Inventario_Keyove\SistemaInventarioKeyove\bin\roslyn\csc.exe
+C:\Sistema_Inventario_Keyove\SistemaInventarioKeyove\bin\roslyn\csc.exe.config
+C:\Sistema_Inventario_Keyove\SistemaInventarioKeyove\bin\roslyn\csc.rsp
+C:\Sistema_Inventario_Keyove\SistemaInventarioKeyove\bin\roslyn\csi.exe
+C:\Sistema_Inventario_Keyove\SistemaInventarioKeyove\bin\roslyn\csi.exe.config
+C:\Sistema_Inventario_Keyove\SistemaInventarioKeyove\bin\roslyn\csi.rsp
+C:\Sistema_Inventario_Keyove\SistemaInventarioKeyove\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Sistema_Inventario_Keyove\SistemaInventarioKeyove\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Sistema_Inventario_Keyove\SistemaInventarioKeyove\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Sistema_Inventario_Keyove\SistemaInventarioKeyove\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Sistema_Inventario_Keyove\SistemaInventarioKeyove\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Sistema_Inventario_Keyove\SistemaInventarioKeyove\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Sistema_Inventario_Keyove\SistemaInventarioKeyove\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Sistema_Inventario_Keyove\SistemaInventarioKeyove\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Sistema_Inventario_Keyove\SistemaInventarioKeyove\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Sistema_Inventario_Keyove\SistemaInventarioKeyove\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Sistema_Inventario_Keyove\SistemaInventarioKeyove\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Sistema_Inventario_Keyove\SistemaInventarioKeyove\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Sistema_Inventario_Keyove\SistemaInventarioKeyove\bin\roslyn\System.AppContext.dll
+C:\Sistema_Inventario_Keyove\SistemaInventarioKeyove\bin\roslyn\System.Collections.Immutable.dll
+C:\Sistema_Inventario_Keyove\SistemaInventarioKeyove\bin\roslyn\System.Console.dll
+C:\Sistema_Inventario_Keyove\SistemaInventarioKeyove\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Sistema_Inventario_Keyove\SistemaInventarioKeyove\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Sistema_Inventario_Keyove\SistemaInventarioKeyove\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Sistema_Inventario_Keyove\SistemaInventarioKeyove\bin\roslyn\System.Globalization.Calendars.dll
+C:\Sistema_Inventario_Keyove\SistemaInventarioKeyove\bin\roslyn\System.IO.Compression.dll
+C:\Sistema_Inventario_Keyove\SistemaInventarioKeyove\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Sistema_Inventario_Keyove\SistemaInventarioKeyove\bin\roslyn\System.IO.FileSystem.dll
+C:\Sistema_Inventario_Keyove\SistemaInventarioKeyove\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Sistema_Inventario_Keyove\SistemaInventarioKeyove\bin\roslyn\System.Net.Http.dll
+C:\Sistema_Inventario_Keyove\SistemaInventarioKeyove\bin\roslyn\System.Net.Sockets.dll
+C:\Sistema_Inventario_Keyove\SistemaInventarioKeyove\bin\roslyn\System.Reflection.Metadata.dll
+C:\Sistema_Inventario_Keyove\SistemaInventarioKeyove\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Sistema_Inventario_Keyove\SistemaInventarioKeyove\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Sistema_Inventario_Keyove\SistemaInventarioKeyove\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Sistema_Inventario_Keyove\SistemaInventarioKeyove\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Sistema_Inventario_Keyove\SistemaInventarioKeyove\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Sistema_Inventario_Keyove\SistemaInventarioKeyove\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Sistema_Inventario_Keyove\SistemaInventarioKeyove\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Sistema_Inventario_Keyove\SistemaInventarioKeyove\bin\roslyn\System.ValueTuple.dll
+C:\Sistema_Inventario_Keyove\SistemaInventarioKeyove\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Sistema_Inventario_Keyove\SistemaInventarioKeyove\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Sistema_Inventario_Keyove\SistemaInventarioKeyove\bin\roslyn\System.Xml.XPath.dll
+C:\Sistema_Inventario_Keyove\SistemaInventarioKeyove\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Sistema_Inventario_Keyove\SistemaInventarioKeyove\bin\roslyn\vbc.exe
+C:\Sistema_Inventario_Keyove\SistemaInventarioKeyove\bin\roslyn\vbc.exe.config
+C:\Sistema_Inventario_Keyove\SistemaInventarioKeyove\bin\roslyn\vbc.rsp
+C:\Sistema_Inventario_Keyove\SistemaInventarioKeyove\bin\roslyn\VBCSCompiler.exe
+C:\Sistema_Inventario_Keyove\SistemaInventarioKeyove\bin\roslyn\VBCSCompiler.exe.config
+C:\Sistema_Inventario_Keyove\SistemaInventarioKeyove\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Sistema_Inventario_Keyove\SistemaInventarioKeyove\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Sistema_Inventario_Keyove\SistemaInventarioKeyove\obj\Debug\SistemaInventarioKeyove.csprojAssemblyReference.cache
+C:\Sistema_Inventario_Keyove\SistemaInventarioKeyove\obj\Debug\SistemaInventarioKeyove.csproj.CoreCompileInputs.cache
+C:\Sistema_Inventario_Keyove\SistemaInventarioKeyove\obj\Debug\SistemaInventarioKeyove.csproj.CopyComplete
+C:\Sistema_Inventario_Keyove\SistemaInventarioKeyove\obj\Debug\SistemaInventarioKeyove.dll
+C:\Sistema_Inventario_Keyove\SistemaInventarioKeyove\obj\Debug\SistemaInventarioKeyove.pdb
