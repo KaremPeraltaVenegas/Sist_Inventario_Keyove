@@ -4,6 +4,7 @@ using System.Data.SqlClient; // 🔹 NECESARIO para usar SQL Server
 using System.Web.UI;
 using System.Web.UI.WebControls;
 using System.Configuration;
+using SistemaInventarioKeyove.Clases;
 
 namespace SistemaInventarioKeyove
 {
@@ -134,14 +135,9 @@ namespace SistemaInventarioKeyove
         {
             try
             {
-                using (SqlConnection con = new SqlConnection(conexion))
-                {
-                    SqlDataAdapter da = new SqlDataAdapter("SELECT * FROM productos", con);
-                    DataTable dt = new DataTable();
-                    da.Fill(dt);
-                    gvProductos.DataSource = dt;
-                    gvProductos.DataBind();
-                }
+
+                Producto objProducto = new Producto();
+                objProducto.ListarProductos();
             }
             catch (Exception ex)
             {
