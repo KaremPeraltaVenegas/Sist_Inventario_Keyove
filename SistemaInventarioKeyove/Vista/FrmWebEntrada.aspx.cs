@@ -1,12 +1,13 @@
 ﻿using System;
 using System.Data;
 using System.Data.SqlClient;
+using SistemaInventarioKeyove.Clases;
 
 namespace SistemaInventarioKeyove
 {
     public partial class FrmWebEntrada : System.Web.UI.Page
     {
-        string cadena = "Data Source=LAPTOP-32FAHBS3;Initial Catalog=ProductosBD;Integrated Security=True";
+        Entrada objEntrada = new Entrada();
 
         protected void Page_Load(object sender, EventArgs e)
         {
@@ -18,31 +19,24 @@ namespace SistemaInventarioKeyove
         {
             try
             {
-                using (SqlConnection cn = new SqlConnection(cadena))
-                {
-                    string sql = @"INSERT INTO IngresosAlmacen
-                                   (AlmacenDestino, TipoMotivo, Comprobante, NroComprobante, FechaComprobante, RUCProveedor, RazonSocial)
-                                   VALUES (@AlmacenDestino, @TipoMotivo, @Comprobante, @NroComprobante, @FechaComprobante, @RUCProveedor, @RazonSocial)";
+                Entrada objEntrada = new Entrada();
 
-                    SqlCommand cmd = new SqlCommand(sql, cn);
-                    cmd.Parameters.AddWithValue("@AlmacenDestino", ddlAlmacenDestino.SelectedValue);
-                    cmd.Parameters.AddWithValue("@TipoMotivo", ddlMotivo.SelectedValue);
-                    cmd.Parameters.AddWithValue("@Comprobante", ddlComprobante.SelectedValue);
-                    cmd.Parameters.AddWithValue("@NroComprobante", txtNroComprobante.Text);
-                    cmd.Parameters.AddWithValue("@FechaComprobante", Convert.ToDateTime(txtFechaComprobante.Text));
-                    cmd.Parameters.AddWithValue("@RUCProveedor", txtRUC.Text);
-                    cmd.Parameters.AddWithValue("@RazonSocial", txtRazonSocial.Text);
-
-                    cn.Open();
-                    cmd.ExecuteNonQuery();
-                }
+                objEntrada.InsertarIngreso(
+                    ddlAlmacenDestino.SelectedValue,
+                    ddlMotivo.SelectedValue,
+                    ddlComprobante.SelectedValue,
+                    txtNroComprobante.Text,
+                    Convert.ToDateTime(txtFechaComprobante.Text),
+                    txtRUC.Text,
+                    txtRazonSocial.Text
+                );
 
                 lblMensaje.Text = "✅ Ingreso registrado correctamente";
                 MostrarIngresos();
             }
             catch (Exception ex)
             {
-                lblMensaje.Text = "❌ Error: " + ex.Message;
+                lblMensaje.Text = "❌ Error al registrar ingreso: " + ex.Message;
             }
         }
 
@@ -52,23 +46,15 @@ namespace SistemaInventarioKeyove
             {
                 int idIngreso = ObtenerUltimoIngreso();
 
-                using (SqlConnection cn = new SqlConnection(cadena))
-                {
-                    string sql = @"INSERT INTO DetalleIngreso
-                                   (IdIngreso, DescripcionArticulo, Cantidad, UnidadMedida, PrecioUnit, Marca)
-                                   VALUES (@IdIngreso, @DescripcionArticulo, @Cantidad, @UnidadMedida, @PrecioUnit, @Marca)";
-
-                    SqlCommand cmd = new SqlCommand(sql, cn);
-                    cmd.Parameters.AddWithValue("@IdIngreso", idIngreso);
-                    cmd.Parameters.AddWithValue("@DescripcionArticulo", txtDescripcion.Text);
-                    cmd.Parameters.AddWithValue("@Cantidad", Convert.ToDecimal(txtCantidad.Text));
-                    cmd.Parameters.AddWithValue("@UnidadMedida", txtUnidad.Text);
-                    cmd.Parameters.AddWithValue("@PrecioUnit", Convert.ToDecimal(txtPrecio.Text));
-                    cmd.Parameters.AddWithValue("@Marca", txtMarca.Text);
-
-                    cn.Open();
-                    cmd.ExecuteNonQuery();
-                }
+                Entrada objEntrada = new Entrada();
+                objEntrada.InsertarDetalle(
+                    idIngreso,
+                    txtDescripcion.Text,
+                    Convert.ToDecimal(txtCantidad.Text),
+                    txtUnidad.Text,
+                    Convert.ToDecimal(txtPrecio.Text),
+                    txtMarca.Text
+                );
 
                 MostrarDetalles(idIngreso);
                 LimpiarDetalle();
@@ -82,40 +68,45 @@ namespace SistemaInventarioKeyove
 
         private void MostrarIngresos()
         {
-            using (SqlConnection cn = new SqlConnection(cadena))
+            try
             {
-                string sql = "SELECT IdIngreso, AlmacenDestino, TipoMotivo, Comprobante, NroComprobante, FechaComprobante, RUCProveedor, RazonSocial FROM IngresosAlmacen ORDER BY IdIngreso DESC";
-                SqlDataAdapter da = new SqlDataAdapter(sql, cn);
-                DataTable dt = new DataTable();
-                da.Fill(dt);
+                Entrada objEntrada = new Entrada();
+                DataTable dt = objEntrada.ListarEntrada();
+
                 gvIngresos.DataSource = dt;
                 gvIngresos.DataBind();
             }
+            catch (Exception ex)
+            {
+                lblMensaje.Text = "❌ Error al mostrar ingresos: " + ex.Message;
+            }
         }
-
         private void MostrarDetalles(int idIngreso)
         {
-            using (SqlConnection cn = new SqlConnection(cadena))
+            try
             {
-                string sql = "SELECT DescripcionArticulo, Cantidad, UnidadMedida, PrecioUnit, SubTotal, Marca FROM DetalleIngreso WHERE IdIngreso = @IdIngreso";
-                SqlDataAdapter da = new SqlDataAdapter(sql, cn);
-                da.SelectCommand.Parameters.AddWithValue("@IdIngreso", idIngreso);
-                DataTable dt = new DataTable();
-                da.Fill(dt);
+                Entrada objEntrada = new Entrada();
+                DataTable dt = objEntrada.ListarDetalle(idIngreso);
+
                 gvDetalles.DataSource = dt;
                 gvDetalles.DataBind();
             }
+            catch (Exception ex)
+            {
+                lblMensaje.Text = "❌ Error al mostrar detalles: " + ex.Message;
+            }
         }
-
         private int ObtenerUltimoIngreso()
         {
-            using (SqlConnection cn = new SqlConnection(cadena))
+            try
             {
-                string sql = "SELECT TOP 1 IdIngreso FROM IngresosAlmacen ORDER BY IdIngreso DESC";
-                SqlCommand cmd = new SqlCommand(sql, cn);
-                cn.Open();
-                object result = cmd.ExecuteScalar();
-                return result != null ? Convert.ToInt32(result) : 0;
+                Entrada objEntrada = new Entrada();
+                return objEntrada.ObtenerUltimoIngreso();
+            }
+            catch (Exception ex)
+            {
+                lblMensaje.Text = "❌ Error al obtener el último ingreso: " + ex.Message;
+                return 0;
             }
         }
 

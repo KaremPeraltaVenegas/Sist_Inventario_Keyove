@@ -79,6 +79,8 @@
   <ItemGroup>
     <Compile Include="Clases\Categoria.cs" />
     <Compile Include="Clases\Conexion.cs" />
+    <Compile Include="Clases\Entrada.cs" />
+    <Compile Include="Clases\EntradaDetalle.cs" />
     <Compile Include="Clases\Producto.cs" />
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>

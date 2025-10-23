@@ -67,7 +67,6 @@
                 <asp:BoundField DataField="Cantidad" HeaderText="Cant." />
                 <asp:BoundField DataField="UnidadMedida" HeaderText="U.Med." />
                 <asp:BoundField DataField="PrecioUnit" HeaderText="P.Unit" DataFormatString="{0:N2}" />
-                <asp:BoundField DataField="SubTotal" HeaderText="SubTotal" DataFormatString="{0:N2}" />
                 <asp:BoundField DataField="Marca" HeaderText="Marca" />
             </Columns>
         </asp:GridView>

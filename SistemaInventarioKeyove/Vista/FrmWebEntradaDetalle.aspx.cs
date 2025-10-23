@@ -1,39 +1,36 @@
 ﻿using System;
 using System.Data;
-using System.Data.SqlClient;
-using System.Configuration;
+using SistemaInventarioKeyove.Clases;
 
 namespace SistemaInventarioKeyove.Vista
 {
     public partial class FrmWebEntradaDetalle : System.Web.UI.Page
     {
-
-        string cadena = "Data Source=DESKTOP-NC03344\\MSSQLSERVER01;Initial Catalog=ProductosBD;Integrated Security=True";
-
         protected void Page_Load(object sender, EventArgs e)
         {
             if (!IsPostBack)
-            {
                 CargarIngresos();
-            }
         }
 
-        // 🔹 Carga los IDs de ingresos disponibles
+        // 🔹 Cargar IDs de ingresos
         private void CargarIngresos()
         {
-            using (SqlConnection cn = new SqlConnection(cadena))
+            try
             {
-                SqlCommand cmd = new SqlCommand("SELECT IdIngreso FROM IngresosAlmacen ORDER BY IdIngreso DESC", cn);
-                cn.Open();
-                SqlDataReader dr = cmd.ExecuteReader();
+                EntradaDetalle obj = new EntradaDetalle();
+                DataTable dt = obj.ListarIngresos();
 
-                ddlIngreso.DataSource = dr;
+                ddlIngreso.DataSource = dt;
                 ddlIngreso.DataTextField = "IdIngreso";
                 ddlIngreso.DataValueField = "IdIngreso";
                 ddlIngreso.DataBind();
-            }
 
-            MostrarDetalles(); // carga los detalles del primer ingreso
+                MostrarDetalles(); // mostrar el primero
+            }
+            catch (Exception ex)
+            {
+                lblMensaje.Text = "❌ Error al cargar ingresos: " + ex.Message;
+            }
         }
 
         // 🔹 Botón "Agregar Detalle"
@@ -41,23 +38,15 @@ namespace SistemaInventarioKeyove.Vista
         {
             try
             {
-                using (SqlConnection cn = new SqlConnection(cadena))
-                {
-                    string sql = @"INSERT INTO DetalleIngreso 
-                                   (IdIngreso, DescripcionArticulo, Cantidad, UnidadMedida, PrecioUnit, Marca)
-                                   VALUES (@IdIngreso, @Descripcion, @Cantidad, @Unidad, @Precio, @Marca)";
+                int idIngreso = Convert.ToInt32(ddlIngreso.SelectedValue);
+                string descripcion = txtDescripcion.Text.Trim();
+                int cantidad = Convert.ToInt32(txtCantidad.Text);
+                string unidad = ddlUnidad.SelectedValue;
+                decimal precio = Convert.ToDecimal(txtPrecio.Text);
+                string marca = txtMarca.Text.Trim();
 
-                    SqlCommand cmd = new SqlCommand(sql, cn);
-                    cmd.Parameters.AddWithValue("@IdIngreso", ddlIngreso.SelectedValue);
-                    cmd.Parameters.AddWithValue("@Descripcion", txtDescripcion.Text.Trim());
-                    cmd.Parameters.AddWithValue("@Cantidad", Convert.ToInt32(txtCantidad.Text));
-                    cmd.Parameters.AddWithValue("@Unidad", ddlUnidad.SelectedValue);
-                    cmd.Parameters.AddWithValue("@Precio", Convert.ToDecimal(txtPrecio.Text));
-                    cmd.Parameters.AddWithValue("@Marca", txtMarca.Text.Trim());
-
-                    cn.Open();
-                    cmd.ExecuteNonQuery();
-                }
+                EntradaDetalle obj = new EntradaDetalle();
+                obj.InsertarDetalle(idIngreso, descripcion, cantidad, unidad, precio, marca);
 
                 lblMensaje.ForeColor = System.Drawing.Color.Green;
                 lblMensaje.Text = "✅ Detalle agregado correctamente.";
@@ -68,29 +57,37 @@ namespace SistemaInventarioKeyove.Vista
             catch (Exception ex)
             {
                 lblMensaje.ForeColor = System.Drawing.Color.Red;
-                lblMensaje.Text = "❌ Error: " + ex.Message;
+                lblMensaje.Text = "❌ Error al agregar detalle: " + ex.Message;
             }
         }
 
-        // 🔹 Muestra los detalles del ingreso seleccionado
+        // 🔹 Mostrar los detalles del ingreso seleccionado
         private void MostrarDetalles()
         {
-            if (ddlIngreso.Items.Count == 0) return;
-
-            using (SqlConnection cn = new SqlConnection(cadena))
+            try
             {
-                string sql = "SELECT IdDetalle, DescripcionArticulo, Cantidad, UnidadMedida, PrecioUnit, (Cantidad * PrecioUnit) AS SubTotal, Marca FROM DetalleIngreso WHERE IdIngreso = @Id";
-                SqlCommand cmd = new SqlCommand(sql, cn);
-                cmd.Parameters.AddWithValue("@Id", ddlIngreso.SelectedValue);
-                SqlDataAdapter da = new SqlDataAdapter(cmd);
-                DataTable dt = new DataTable();
-                da.Fill(dt);
+                if (ddlIngreso.Items.Count == 0) return;
+
+                int idIngreso = Convert.ToInt32(ddlIngreso.SelectedValue);
+                EntradaDetalle obj = new EntradaDetalle();
+                DataTable dt = obj.ListarDetalles(idIngreso);
+
                 gvDetalle.DataSource = dt;
                 gvDetalle.DataBind();
             }
+            catch (Exception ex)
+            {
+                lblMensaje.Text = "❌ Error al mostrar detalles: " + ex.Message;
+            }
         }
 
-        // 🔹 Limpia los campos después de agregar
+        // 🔹 Cuando cambia el ingreso seleccionado
+        protected void ddlIngreso_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            MostrarDetalles();
+        }
+
+        // 🔹 Limpiar campos después de agregar
         private void LimpiarCampos()
         {
             txtDescripcion.Text = "";
@@ -98,11 +95,6 @@ namespace SistemaInventarioKeyove.Vista
             txtPrecio.Text = "";
             txtMarca.Text = "";
         }
-
-        // 🔹 Cuando cambia el ID de ingreso
-        protected void ddlIngreso_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            MostrarDetalles();
-        }
     }
 }
+
