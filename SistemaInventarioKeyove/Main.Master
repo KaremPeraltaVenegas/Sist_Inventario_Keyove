@@ -26,7 +26,7 @@
         <div class="sidebar">
             <div class="brand"><i class="fas fa-cogs"></i> Sistema de Gestión</div>
             <a class="active" href="Menu.aspx"><i class="fas fa-home"></i> Inicio</a>
-            <a href="FrmWebProducto.aspx"><i class="fas fa-box-open"></i> Agregar Productos</a>
+            <a href="FrmProducto.aspx"><i class="fas fa-box-open"></i> Agregar Productos</a>
             <a href="Categoria.aspx"><i class="fas fa-tags"></i> Categorías</a>
             <a href="FormWebEntrada.aspx"><i class="fas fa-arrow-circle-down"></i> Entrada</a>
             <a href="DetalleIngreso.aspx"><i class="fas fa-file-invoice"></i> Detalles Ingreso</a>

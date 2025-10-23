@@ -69,12 +69,20 @@
   <ItemGroup>
     <Content Include="Script\SiteScript.js" />
     <Content Include="Styles\Site.css" />
+    <Content Include="Vista\FrmProducto.aspx" />
     <Content Include="Vista\FrmWebEntrada.aspx" />
     <Content Include="Vista\FrmWebCategoria.aspx" />
     <Content Include="Vista\FrmWebEntradaDetalle.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Vista\FrmProducto.aspx.cs">
+      <DependentUpon>FrmProducto.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Vista\FrmProducto.aspx.designer.cs">
+      <DependentUpon>FrmProducto.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Vista\FrmWebEntrada.aspx.cs">
       <DependentUpon>FrmWebEntrada.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
