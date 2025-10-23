@@ -62,7 +62,7 @@
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
                     </div>
                     <div class="modal-body">
-                        <asp:HiddenField ID="hfIdCategoria" runat="server" />
+                        <asp:HiddenField ID="IdCategoria" runat="server" />
                         <div class="mb-3">
                             <label for="txtEditarNombre" class="form-label">Nombre:</label>
                             <asp:TextBox ID="txtEditarNombre" runat="server" CssClass="form-control"></asp:TextBox>

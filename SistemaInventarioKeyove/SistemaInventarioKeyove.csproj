@@ -67,6 +67,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Default.aspx" />
     <Content Include="Script\SiteScript.js" />
     <Content Include="Styles\Site.css" />
     <Content Include="Vista\FrmProducto.aspx" />
@@ -76,8 +77,16 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Clases\Categoria.cs" />
     <Compile Include="Clases\Conexion.cs" />
     <Compile Include="Clases\Producto.cs" />
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Vista\FrmProducto.aspx.cs">
       <DependentUpon>FrmProducto.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

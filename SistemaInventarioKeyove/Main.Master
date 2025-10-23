@@ -25,24 +25,18 @@
         <!-- 🔹 Sidebar con íconos -->
         <div class="sidebar">
             <div class="brand"><i class="fas fa-cogs"></i> Sistema de Gestión</div>
-            <a class="active" href="Menu.aspx"><i class="fas fa-home"></i> Inicio</a>
-            <a href="FrmProducto.aspx"><i class="fas fa-box-open"></i> Agregar Productos</a>
-            <a href="Categoria.aspx"><i class="fas fa-tags"></i> Categorías</a>
-            <a href="FormWebEntrada.aspx"><i class="fas fa-arrow-circle-down"></i> Entrada</a>
-            <a href="DetalleIngreso.aspx"><i class="fas fa-file-invoice"></i> Detalles Ingreso</a>
+            <a class="active" href="../Default.aspx"><i class="fas fa-home"></i> Inicio</a>
+            <a href="./Vista/FrmProducto.aspx"><i class="fas fa-box-open"></i> Agregar Productos</a>
+            <a href="./Vista/FrmWebCategoria.aspx"><i class="fas fa-tags"></i> Categorías</a>
+            <a href="./Vista/FrmWebEntrada.aspx"><i class="fas fa-arrow-circle-down"></i> Entrada</a>
+            <a href="./Vista/FrmWebEntradaDetalle.aspx"><i class="fas fa-file-invoice"></i> Detalles Ingreso</a>
             <a href="Login.aspx"><i class="fas fa-sign-out-alt"></i> Cerrar Sesión</a>
         </div>
 
+
         <!-- 🔹 Contenido principal -->
         <div class="main-content">
-            <div class="container mt-4">
-                <h2 class="fw-bold">Bienvenida al Sistema de Gestión</h2>
-                <p class="text-muted">Selecciona una opción del menú lateral para comenzar.</p>
-
-                <!-- 🔹 Contenido dinámico (páginas hijas) -->
-                <asp:ContentPlaceHolder ID="ContenidoBody" runat="server"></asp:ContentPlaceHolder>
-            </div>
-
+             <asp:ContentPlaceHolder ID="ContenidoBody" runat="server"></asp:ContentPlaceHolder>
             <!-- 🔹 Footer -->
             <div class="footer text-center">
                 
