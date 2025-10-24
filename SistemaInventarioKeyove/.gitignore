@@ -1,0 +1,9 @@
+﻿# Ignorar bin y obj
+bin/
+obj/
+
+# Ignorar configuración local de Visual Studio
+.vs/
+*.suo
+*.user
+*.cache
