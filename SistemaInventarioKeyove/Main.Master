@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html>
 <head runat="server">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Sistema de Gestión</title>
 
     <!-- Font Awesome (íconos) -->
@@ -24,27 +24,25 @@
 
         <!-- 🔹 Sidebar con íconos -->
         <div class="sidebar">
-            <div class="brand"><i class="fas fa-cogs"></i> Sistema de Gestión</div>
-            <a class="active" href="../Default.aspx"><i class="fas fa-home"></i> Inicio</a>
-            <a href="./Vista/FrmProducto.aspx"><i class="fas fa-box-open"></i> Agregar Productos</a>
-            <a href="./Vista/FrmWebCategoria.aspx"><i class="fas fa-tags"></i> Categorías</a>
-            <a href="./Vista/FrmWebEntrada.aspx"><i class="fas fa-arrow-circle-down"></i> Entrada</a>
-            <a href="./Vista/FrmWebEntradaDetalle.aspx"><i class="fas fa-file-invoice"></i> Detalles Ingreso</a>
-            <a href="Login.aspx"><i class="fas fa-sign-out-alt"></i> Cerrar Sesión</a>
+            <div class="brand"><i class="fas fa-cogs"></i>Sistema de Inventarios</div>
+            <a href='<%: ResolveUrl("~/Default.aspx") %>'><i class="fas fa-box-open"></i>Bienvenidos</a>
+            <a href='<%: ResolveUrl("~/Vista/FrmProducto.aspx") %>'><i class="fas fa-box-open"></i>Productos</a>
+            <a href='<%: ResolveUrl("~/Vista/FrmWebCategoria.aspx") %>'><i class="fas fa-box-open"></i>Categorías</a>
+            <a href='<%: ResolveUrl("~/Vista/FrmWebEntrada.aspx") %>'><i class="fas fa-arrow-circle-down"></i>Entrada</a>
+            <a href='<%: ResolveUrl("~/Vista/FrmWebEntradaDetalle.aspx") %>'><i class="fas fa-file-invoice"></i>Detalles Ingreso</a>
+            <a href="Login.aspx"><i class="fas fa-sign-out-alt"></i>Cerrar Sesión</a>
         </div>
 
 
         <!-- 🔹 Contenido principal -->
         <div class="main-content">
-             <asp:ContentPlaceHolder ID="ContenidoBody" runat="server"></asp:ContentPlaceHolder>
+            <asp:ContentPlaceHolder ID="ContenidoBody" runat="server"></asp:ContentPlaceHolder>
             <!-- 🔹 Footer -->
             <div class="footer text-center">
-                
             </div>
         </div>
     </form>
 
-    <!-- Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
 </body>
 </html>
